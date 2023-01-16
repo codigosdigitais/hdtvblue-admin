@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hdtvblue/public_html/painel #Add /<sub_folder> if required
+    - export DEPLOYPATH=/home/hdtvblue/painel.hdtv.blue #Add /<sub_folder> if required
     - /bin/cp -r * $DEPLOYPATH
